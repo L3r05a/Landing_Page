@@ -1,7 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 body {
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Mono", monospace;
 }
+
+/* Header and links */
 
 .Section1 {
     background-color: #1f2937;
@@ -16,6 +22,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 700;
     flex-shrink: 0;
 }
 
@@ -37,9 +44,10 @@ a {
     font-size: 18px;   
 }
 
+/* Hero txt and image section */
+
 .section2 { 
     display: flex;
-    /* flex-wrap: wrap; */
     height: auto;
     padding: 50px 180px;
     background-color: #1f2937;
@@ -50,14 +58,12 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* width: 30vw; */
     
 }
 
 .image img {
     width: 450px;
     margin-left: 100px;
-    /* flex: 1; */
     
 }
 
@@ -70,6 +76,7 @@ a {
 .sub    {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
 button {
@@ -77,11 +84,13 @@ button {
     background-color: #3882f6;
     padding: 5px 20px;
     font-size: 20px;
+    font-weight: 900;
     border-radius: 8px;
-    margin-top: 10px ; 
-    margin-bottom: 50px;
     border-style:none;
+    width: 130px;
 }
+
+/* Information and thumnails section */
 
 .section3 {
     background-color: #f9faf8;
@@ -104,16 +113,19 @@ p {
 }
 
 .contents img {
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
     border:5px solid #3882f6 ;
     border-radius: 8px;
-
 }
 
 .text {
     width: 150px;
+    color: #494646;
+
 }
+
+/* Quote section */
 
 .section4 {
     background-color: #e5e7eb ;
@@ -128,7 +140,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-style: italic;
+    font-style: italic ;
+    font-weight: lighter;
     font-size: 36px;
     color: #1f2937;
     padding-bottom: 20px;
@@ -143,32 +156,65 @@ p {
 }
 
 
+/* Call to action and alt button */
+
 .section5 {
     background-color: #f9faf8;
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    padding: 0 180px; 
 }
 
 .actionbox {
     background-color: #3882f6 ;
-    color: #f9faf8;
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.txtbox {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    justify-content: center;
     flex: 1;
-    margin: 0 180px;
-    border-radius: 10px;
-
+    margin: 40px 100px;
 }
 
+.box2 {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin: 40px 100px 40px 80px;
+}
 
+.sign2 button {
+    border-style: solid;
+    border-color: #e5e7eb;
+}
 
 .txt {
-    font-size: 18px;
+    color: #f9faf8;
+    font-size: 24px;
     font-weight: bold;
 }
+
+.txt2 {
+    color:  #f9faf8;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
